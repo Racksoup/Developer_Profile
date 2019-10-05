@@ -1,0 +1,97 @@
+.contact {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	background: #36e4a9;
+	display: grid;
+	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+	grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.contactLeftLine {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 100%;
+	color: black;
+	height: 1px;
+	background-color: black;
+	margin: auto;
+}
+
+.contactRightLine {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	color: black;
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	margin: auto;
+}
+
+.contactTitle {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-size: 2.8rem;
+	margin: auto;
+	font-weight: bold;
+}
+
+.contactInfo {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-size: 1.4rem;
+}
+
+.contactBtn {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	margin: auto;
+}
+
+.contactBtns {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	margin: auto;
+}
+
+.signature {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	max-height: 10rem;
+	max-width: 10rem;
+	margin: auto;
+}
+
+.contactBtnStyle {
+	padding: 0rem;
+	margin: 1rem;
+	border-radius: rem;
+	background-color: rgba(0, 0, 0, 0);
+	border: hidden;
+}
+
+.contactBtnImg {
+	height: 2rem;
+	width: 2rem;
+	border-radius: 0.2rem;
+}
+
+.signatureImg {
+	max-height: 10rem;
+	max-width: 10rem;
+}

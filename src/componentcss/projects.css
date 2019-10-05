@@ -1,0 +1,135 @@
+.projects {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background: #b126eb;
+	display: grid;
+	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+	grid-template-rows: 1fr 1fr 8fr 0.5fr;
+}
+
+.leftProjectLine {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 100%;
+	color: black;
+	height: 1px;
+	background-color: black;
+	margin: auto;
+}
+
+.rightProjectLine {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	color: black;
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	margin: auto;
+}
+
+.projectTitle {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-size: 2.8rem;
+	margin: auto;
+	font-weight: bold;
+}
+
+.projectInfo {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-size: 1.4rem;
+}
+
+.previewGrid {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+.preview1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin: auto;
+	border: solid;
+	border-color: black;
+	border-radius: 0.98rem;
+}
+
+.preview2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin: auto;
+	border: solid;
+	border-color: black;
+	border-radius: 0.98rem;
+}
+
+.preview3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin: auto;
+	border: solid;
+	border-color: black;
+	border-radius: 0.98rem;
+}
+
+.preview4 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin: auto;
+	border: solid;
+	border-color: black;
+	border-radius: 0.98rem;
+}
+
+.preview5 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin: auto;
+	border: solid;
+	border-color: black;
+	border-radius: 0.98rem;
+}
+
+.preview6 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin: auto;
+	border: solid;
+	border-color: black;
+	border-radius: 0.98rem;
+}
+
+.previewImg {
+	height: 100%;
+	width: 100%;
+	border-radius: 0.8rem;
+}

@@ -1,0 +1,33 @@
+.statement {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background: rgba(0, 0, 0, 0);
+	display: grid;
+	grid-template-rows: 2fr 4fr 2fr;
+}
+
+.statementBlock {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
+.contactButtons {
+	display: block;
+}
+
+.contactIcon {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 0.2rem;
+}
+
+.btn-icon {
+	height: 2rem;
+	width: 2rem;
+	padding: 0rem;
+	margin: 1rem;
+}
