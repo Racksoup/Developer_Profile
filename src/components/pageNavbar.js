@@ -16,21 +16,21 @@ import "../componentcss/pageNavbar.css";
 
 function PageNavbar() {
 	return (
-		<Navbar className="pageNavbar">
+		<Navbar className="pageNavbar nav-bar" color="dark">
 			<Nav>
-				<NavItem>
+				<NavItem className="navItemStyle">
 					<NavLink href="#about">About</NavLink>
 				</NavItem>
-				<NavItem>
+				<NavItem className="navItemStyle">
 					<NavLink href="#projects">Projects</NavLink>
 				</NavItem>
-				<NavItem>
+				<NavItem className="navItemStyle">
 					<NavLink href="#statement">Connor</NavLink>
 				</NavItem>
-				<NavItem>
+				<NavItem className="navItemStyle">
 					<NavLink href="#skills">Skills</NavLink>
 				</NavItem>
-				<NavItem>
+				<NavItem className="navItemStyle">
 					<NavLink href="#contact">Contact</NavLink>
 				</NavItem>
 			</Nav>

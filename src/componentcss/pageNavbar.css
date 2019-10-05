@@ -15,4 +15,7 @@
 		margin-right: 0%;
 		font-size: 0.7rem;
 	}
+	.nav-item {
+		width: 60px;
+	}
 }
