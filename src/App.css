@@ -38,7 +38,7 @@
   .App {
     display: grid;
     grid-template-columns: 0fr 10fr 0fr;
-    grid-template-rows: 50rem 50rem 58rem 62rem 20rem;
+    grid-template-rows: 35rem 60rem 120rem 90rem 20rem;
   }
 
   .background {

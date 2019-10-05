@@ -95,3 +95,22 @@
 	max-height: 10rem;
 	max-width: 10rem;
 }
+
+@media only screen and (max-width: 800px) {
+	.contact {
+		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+		grid-template-rows: 5rem auto auto auto auto 0.7rem;
+	}
+
+	.contactTitle {
+		font-size: 1.8rem;
+	}
+
+	.contactInfo {
+		font-size: 1.2rem;
+	}
+
+	.contactBtnStyle {
+		margin: 0.2rem;
+	}
+}

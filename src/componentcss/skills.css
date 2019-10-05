@@ -293,3 +293,184 @@
 	max-width: 80%;
 	max-height: 80%;
 }
+
+@media only screen and (max-width: 800px) {
+	.skills {
+		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+		grid-template-rows: 0.95fr 3fr 12fr 0.5fr;
+	}
+
+	.skillsTitle {
+		font-size: 1.8rem;
+	}
+
+	.skillsInfo {
+		font-size: 1.2rem;
+	}
+
+	.skillsGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+
+	.frontend {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 4;
+	}
+
+	.backend {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 4;
+		grid-row-end: 6;
+	}
+
+	.tools {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 6;
+		grid-row-end: 8;
+	}
+
+	.htmlx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.cssx {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.sassx {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.reactx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.bootstrapx {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.reduxx {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.webpackx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.applex {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.photoshopx {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.nodejsx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+
+	.expressx {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+
+	.mongoosex {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+
+	.mongodbx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 5;
+		grid-row-end: 6;
+	}
+
+	.mysqlx {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 5;
+		grid-row-end: 6;
+	}
+
+	.awsx {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 5;
+		grid-row-end: 6;
+	}
+
+	.sublimex {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 6;
+		grid-row-end: 7;
+	}
+
+	.npmx {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 6;
+		grid-row-end: 7;
+	}
+
+	.herokux {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 6;
+		grid-row-end: 7;
+	}
+
+	.githubx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 7;
+		grid-row-end: 8;
+	}
+
+	.wordpressx {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 7;
+		grid-row-end: 8;
+	}
+}

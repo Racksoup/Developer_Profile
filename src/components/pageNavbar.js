@@ -16,9 +16,9 @@ import "../componentcss/pageNavbar.css";
 
 function PageNavbar() {
 	return (
-		<Navbar className="pageNavbar" right>
-			<Nav right>
-				<NavItem right>
+		<Navbar className="pageNavbar">
+			<Nav>
+				<NavItem>
 					<NavLink href="#about">About</NavLink>
 				</NavItem>
 				<NavItem>

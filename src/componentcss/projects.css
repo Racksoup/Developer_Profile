@@ -133,3 +133,67 @@
 	width: 100%;
 	border-radius: 0.8rem;
 }
+
+@media only screen and (max-width: 800px) {
+	.projects {
+		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+		grid-template-rows: 1.05fr 3fr 20fr 1fr;
+	}
+
+	.projectTitle {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		font-size: 1.8rem;
+	}
+
+	.projectInfo {
+		grid-column-start: 2;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		font-size: 1.2rem;
+	}
+
+	.previewGrid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+
+	.preview1 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.preview2 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.preview3 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.preview4 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+
+	.preview5 {
+		display: none;
+	}
+
+	.preview6 {
+		display: none;
+	}
+}
