@@ -17,16 +17,24 @@ function Contact() {
 			<Button className="contactBtn"> Contact Me </Button>
 			<div className="contactBtns">
 				<button className="contactBtnStyle">
-					<img src={facebookImg} className="contactBtnImg" />
+					<a href="https://www.facebook.com/connor.rack">
+						<img src={facebookImg} className="contactBtnImg" />
+					</a>
 				</button>
 				<button className="contactBtnStyle">
-					<img src={gitImg} className="contactBtnImg" />
+					<a href="https://github.com/Racksoup">
+						<img src={gitImg} className="contactBtnImg" />
+					</a>
 				</button>
 				<button className="contactBtnStyle">
-					<img src={linkImg} className="contactBtnImg" />
+					<a href="https://www.linkedin.com/in/connor-rack-9066b2193/">
+						<img src={linkImg} className="contactBtnImg" />
+					</a>
 				</button>
 				<button className="contactBtnStyle">
-					<img src={stackImg} className="contactBtnImg" />
+					<a href="https://stackoverflow.com/users/12059425/racksoup">
+						<img src={stackImg} className="contactBtnImg" />
+					</a>
 				</button>
 			</div>
 			<div className="signature">

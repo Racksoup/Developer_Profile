@@ -34,8 +34,11 @@ function Skills() {
 			</div>
 			<div className="skillsGrid">
 				<div className="frontend" />
+				<div className="frontendTitle"> Front-End </div>
 				<div className="backend" />
+				<div className="backendTitle"> Back-End </div>
 				<div className="tools" />
+				<div className="toolsTitle"> Tools </div>
 				<div className="htmlx">
 					<img src={Htmlx} className="skillsImg" />
 				</div>

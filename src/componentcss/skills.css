@@ -3,10 +3,10 @@
 	grid-column-end: 3;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	background: #bc985a;
+	background: #45a29e;
 	display: grid;
 	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
-	grid-template-rows: 1fr 1fr 8fr 0.5fr;
+	grid-template-rows: 1fr 2fr 18fr 0.5fr;
 	place-items: center;
 }
 
@@ -48,6 +48,7 @@
 	grid-row-start: 2;
 	grid-row-end: 3;
 	font-size: 1.4rem;
+	align-self: start;
 }
 
 .skillsGrid {
@@ -58,16 +59,16 @@
 	display: grid;
 	place-self: stretch;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-gap: 2rem;
-	place-items: stretch;
+	grid-template-rows: auto 5fr 5fr auto 5fr auto 5fr;
+	grid-gap: 2rem 1.5rem;
+	place-items: center;
 }
 
 .frontend {
 	grid-column-start: 1;
 	grid-column-end: 7;
 	grid-row-start: 1;
-	grid-row-end: 3;
+	grid-row-end: 4;
 	border: ridge;
 	background: white;
 	place-self: stretch;
@@ -76,8 +77,8 @@
 .backend {
 	grid-column-start: 1;
 	grid-column-end: 7;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 6;
 	border: ridge;
 	background: white;
 	place-self: stretch;
@@ -86,163 +87,204 @@
 .tools {
 	grid-column-start: 1;
 	grid-column-end: 7;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 8;
 	border: ridge;
 	background: white;
 	place-self: stretch;
 }
 
+.frontendTitle {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	margin-bottom: -2rem;
+	margin-left: 1.5rem;
+	margin-top: 0.6rem;
+	font-size: 2rem;
+	border-bottom: groove;
+}
+
+.backendTitle {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	justify-self: start;
+	align-self: center;
+	margin-bottom: -2rem;
+	margin-left: 1.5rem;
+	margin-top: 0.6rem;
+	font-size: 2rem;
+	border-bottom: groove;
+}
+
+.toolsTitle {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 6;
+	grid-row-end: 7;
+	justify-self: start;
+	align-self: center;
+	margin-bottom: -2rem;
+	margin-left: 1.5rem;
+	margin-top: 0.6rem;
+	font-size: 2rem;
+	border-bottom: groove;
+}
+
 .skillsImg {
-	width: 100%;
-	height: 100%;
+	width: 90%;
+	height: 90%;
 }
 
 .htmlx {
 	grid-column-start: 1;
 	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .cssx {
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .sassx {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .reactx {
 	grid-column-start: 4;
 	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .bootstrapx {
 	grid-column-start: 5;
 	grid-column-end: 6;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .reduxx {
 	grid-column-start: 6;
 	grid-column-end: 7;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .webpackx {
 	grid-column-start: 1;
 	grid-column-end: 2;
-	grid-row-start: 2;
-	grid-row-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
 }
 
 .applex {
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
 	object-fit: contain;
 }
 
 .photoshopx {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 2;
-	grid-row-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
 }
 
 .nodejsx {
 	grid-column-start: 1;
 	grid-column-end: 2;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 .expressx {
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 .mongoosex {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 .mongodbx {
 	grid-column-start: 4;
 	grid-column-end: 5;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 .mysqlx {
 	grid-column-start: 5;
 	grid-column-end: 6;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 .awsx {
 	grid-column-start: 6;
 	grid-column-end: 7;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 .sublimex {
 	grid-column-start: 1;
 	grid-column-end: 2;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
 }
 
 .npmx {
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
 }
 
 .herokux {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
 }
 
 .githubx {
 	grid-column-start: 4;
 	grid-column-end: 5;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
 }
 
 .wordpressx {
 	grid-column-start: 5;
 	grid-column-end: 6;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
 }
 
 @media only screen and (max-width: 800px) {
 	.skills {
 		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
-		grid-template-rows: 1fr 3fr 10fr 0.5fr;
+		grid-template-rows: 1fr 1.6fr 10fr 0.5fr;
 	}
 
 	.skillsTitle {
@@ -255,167 +297,200 @@
 
 	.skillsGrid {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto 1fr 1fr 1fr auto 1fr 1fr auto 1fr 1fr;
 	}
 
 	.frontend {
 		grid-column-start: 1;
 		grid-column-end: 4;
 		grid-row-start: 1;
-		grid-row-end: 4;
+		grid-row-end: 5;
 	}
 
 	.backend {
 		grid-column-start: 1;
 		grid-column-end: 4;
-		grid-row-start: 4;
-		grid-row-end: 6;
+		grid-row-start: 5;
+		grid-row-end: 8;
 	}
 
 	.tools {
 		grid-column-start: 1;
 		grid-column-end: 4;
-		grid-row-start: 6;
-		grid-row-end: 8;
+		grid-row-start: 8;
+		grid-row-end: 11;
+	}
+
+	.frontendTitle {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		margin-bottom: -2rem;
+		margin-left: 1.5rem;
+		margin-top: 0.6rem;
+		font-size: 2rem;
+	}
+
+	.backendTitle {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 5;
+		grid-row-end: 6;
+		margin-bottom: -2rem;
+		margin-left: 1.5rem;
+		margin-top: 0.6rem;
+		font-size: 2rem;
+	}
+
+	.toolsTitle {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 8;
+		grid-row-end: 9;
+		margin-bottom: -2rem;
+		margin-left: 1.5rem;
+		margin-top: 0.6rem;
+		font-size: 2rem;
 	}
 
 	.htmlx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 1;
-		grid-row-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
 	}
 
 	.cssx {
 		grid-column-start: 2;
 		grid-column-end: 3;
-		grid-row-start: 1;
-		grid-row-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
 	}
 
 	.sassx {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 1;
-		grid-row-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
 	}
 
 	.reactx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 2;
-		grid-row-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
 	}
 
 	.bootstrapx {
 		grid-column-start: 2;
 		grid-column-end: 3;
-		grid-row-start: 2;
-		grid-row-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
 	}
 
 	.reduxx {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 2;
-		grid-row-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
 	}
 
 	.webpackx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 3;
-		grid-row-end: 4;
+		grid-row-start: 4;
+		grid-row-end: 5;
 	}
 
 	.applex {
 		grid-column-start: 2;
 		grid-column-end: 3;
-		grid-row-start: 3;
-		grid-row-end: 4;
+		grid-row-start: 4;
+		grid-row-end: 5;
 	}
 
 	.photoshopx {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 3;
-		grid-row-end: 4;
+		grid-row-start: 4;
+		grid-row-end: 5;
 	}
 
 	.nodejsx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 4;
-		grid-row-end: 5;
+		grid-row-start: 6;
+		grid-row-end: 7;
 	}
 
 	.expressx {
 		grid-column-start: 2;
 		grid-column-end: 3;
-		grid-row-start: 4;
-		grid-row-end: 5;
+		grid-row-start: 6;
+		grid-row-end: 7;
 	}
 
 	.mongoosex {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 4;
-		grid-row-end: 5;
+		grid-row-start: 6;
+		grid-row-end: 7;
 	}
 
 	.mongodbx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 5;
-		grid-row-end: 6;
+		grid-row-start: 7;
+		grid-row-end: 8;
 	}
 
 	.mysqlx {
 		grid-column-start: 2;
 		grid-column-end: 3;
-		grid-row-start: 5;
-		grid-row-end: 6;
+		grid-row-start: 7;
+		grid-row-end: 8;
 	}
 
 	.awsx {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 5;
-		grid-row-end: 6;
+		grid-row-start: 7;
+		grid-row-end: 8;
 	}
 
 	.sublimex {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 6;
-		grid-row-end: 7;
+		grid-row-start: 9;
+		grid-row-end: 10;
 	}
 
 	.npmx {
 		grid-column-start: 2;
 		grid-column-end: 3;
-		grid-row-start: 6;
-		grid-row-end: 7;
+		grid-row-start: 9;
+		grid-row-end: 10;
 	}
 
 	.herokux {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 6;
-		grid-row-end: 7;
+		grid-row-start: 9;
+		grid-row-end: 10;
 	}
 
 	.githubx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 7;
-		grid-row-end: 8;
+		grid-row-start: 10;
+		grid-row-end: 11;
 	}
 
 	.wordpressx {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		grid-row-start: 7;
-		grid-row-end: 8;
+		grid-row-start: 10;
+		grid-row-end: 11;
 	}
 }

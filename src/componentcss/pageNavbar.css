@@ -5,11 +5,22 @@
 	margin-left: 8.333%;
 	margin-right: 8.333%;
 	justify-content: center;
-	background-color: #fbeec1;
+	background-color: #1f2833;
+}
+
+.nav-item {
+	background: #0b0c10;
+	border-radius: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .nav-link {
-	color: #8d8741;
+	color: #45a29e;
+}
+
+.nav-link:hover {
+	color: #66fcf1;
 }
 
 @media only screen and (max-width: 800px) {

@@ -13,19 +13,22 @@ function About() {
 				create the Best User Experience possible
 			</div>
 			<div className="infoText1">
-				If you know one thing about me it's that i love my dog and i love to
-				bring him everywhere i go. the whole city of ottawa is our playground.
+				If you know one thing about me it's that I love my dog and I love to
+				bring him everywhere I go. The whole city of Ottawa is our playground.
+				Whether we are playing fetch, out for a run or, just relaxing, we are
+				always having a good time.
 			</div>
 			<div className="infoText2">
 				when we aren't in Ottawa I'll usually be spending time doing archery in
-				the mountains just north in quebec. Me and my dog Neo love to run and
-				play in the forest. If we dont get to run
+				the mountains just north in Quebec. Me and my dog Neo love to run and
+				play in the forest. If we dont go for a run most day, I start going
+				crazy.
 			</div>
 			<div className="infoText3">
-				The forest is a quiet and peaceful place. perfect for working on my web
-				development. As much as i like the forest, I always find myself coming
-				back to the city I love. I Probably love the city so much because there
-				is no Tim Horton's in the forest, and I run on coffee.
+				The forest is a quiet and peaceful place. Perfect for building my
+				development skills. As much as I like the forest, I always find myself
+				coming back to the city I love. I Probably love the city so much because
+				there is no Tim Horton's in the forest, and I run on coffee.
 			</div>
 			<Button className="projectsButton"> View Recent Projects </Button>
 		</section>
