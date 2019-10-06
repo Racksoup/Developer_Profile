@@ -1,6 +1,7 @@
 import React from "react";
 import "../componentcss/about.css";
 import { Button } from "reactstrap";
+import Underline from "../images/underline.png";
 
 function About() {
 	return (
@@ -11,6 +12,9 @@ function About() {
 			<div className="aboutText">
 				My career began in Ottawa where I learned to Design Beautiful UI's to
 				create the Best User Experience possible
+			</div>
+			<div className="underline">
+				<img src={Underline} className="underlineImg" />
 			</div>
 			<div className="infoText1">
 				If you know one thing about me it's that I love my dog and I love to

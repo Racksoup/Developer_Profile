@@ -6,7 +6,7 @@
 	background: #c5c6c7;
 	display: grid;
 	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
-	grid-template-rows: 2fr 2fr 12fr 2fr;
+	grid-template-rows: 2fr 2fr 20px 12fr 2fr;
 	place-items: center;
 }
 
@@ -51,11 +51,22 @@
 	align-self: start;
 }
 
+.underline {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.underlineImg {
+	width: 100%;
+}
+
 .infoText1 {
 	grid-column-start: 1;
 	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
 	font-size: 1.4rem;
 	margin: 4rem;
 }
@@ -63,8 +74,8 @@
 .infoText2 {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
 	font-size: 1.4rem;
 	margin: 4rem;
 }
@@ -72,8 +83,8 @@
 .infoText3 {
 	grid-column-start: 4;
 	grid-column-end: 6;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
 	font-size: 1.4rem;
 	margin: 4rem;
 }
@@ -81,14 +92,14 @@
 .projectsButton {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 4;
-	grid-row-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
 
 @media only screen and (max-width: 800px) {
 	.about {
 		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
-		grid-template-rows: 1fr 1.6fr 3fr 3fr 3fr 1fr;
+		grid-template-rows: 1fr 1.6fr 20px 3fr 3fr 3fr 1fr;
 	}
 
 	.aboutTitle {
@@ -102,22 +113,13 @@
 	.infoText1 {
 		grid-column-start: 2;
 		grid-column-end: 5;
-		grid-row-start: 3;
-		grid-row-end: 4;
-		font-size: 1rem;
-		margin: 2rem;
-	}
-
-	.infoText2 {
-		grid-column-start: 2;
-		grid-column-end: 5;
 		grid-row-start: 4;
 		grid-row-end: 5;
 		font-size: 1rem;
 		margin: 2rem;
 	}
 
-	.infoText3 {
+	.infoText2 {
 		grid-column-start: 2;
 		grid-column-end: 5;
 		grid-row-start: 5;
@@ -126,10 +128,19 @@
 		margin: 2rem;
 	}
 
+	.infoText3 {
+		grid-column-start: 2;
+		grid-column-end: 5;
+		grid-row-start: 6;
+		grid-row-end: 7;
+		font-size: 1rem;
+		margin: 2rem;
+	}
+
 	.projectsButton {
 		grid-column-start: 3;
 		grid-column-end: 4;
-		grid-row-start: 6;
-		grid-row-end: 7;
+		grid-row-start: 7;
+		grid-row-end: 8;
 	}
 }
