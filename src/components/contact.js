@@ -4,7 +4,7 @@ import facebookImg from "../images/facebook.png";
 import gitImg from "../images/github.png";
 import linkImg from "../images/linkedin.png";
 import stackImg from "../images/stackoverflow.png";
-import Signature from "../images/signature.jpg";
+import Signature from "../images/signature.png";
 import { Button } from "reactstrap";
 
 function Contact() {
