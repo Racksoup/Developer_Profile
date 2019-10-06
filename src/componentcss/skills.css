@@ -3,10 +3,11 @@
 	grid-column-end: 3;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	background-image: url(../images/yellowstripes.svg);
+	background: #bc985a;
 	display: grid;
 	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
 	grid-template-rows: 1fr 1fr 8fr 0.5fr;
+	place-items: center;
 }
 
 .skillsLeftLine {
@@ -18,7 +19,6 @@
 	color: black;
 	height: 1px;
 	background-color: black;
-	margin: auto;
 }
 
 .skillsRightLine {
@@ -30,7 +30,6 @@
 	width: 100%;
 	height: 1px;
 	background-color: black;
-	margin: auto;
 }
 
 .skillsTitle {
@@ -39,7 +38,6 @@
 	grid-row-start: 1;
 	grid-row-end: 2;
 	font-size: 2.8rem;
-	margin: auto;
 	font-weight: bold;
 }
 
@@ -57,9 +55,11 @@
 	grid-row-start: 3;
 	grid-row-end: 4;
 	display: grid;
+	place-self: stretch;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-gap: 1rem;
+	grid-gap: 2rem;
+	place-items: stretch;
 }
 
 .frontend {
@@ -69,6 +69,7 @@
 	grid-row-end: 3;
 	border: ridge;
 	background: white;
+	place-self: stretch;
 }
 
 .backend {
@@ -78,6 +79,7 @@
 	grid-row-end: 4;
 	border: ridge;
 	background: white;
+	place-self: stretch;
 }
 
 .tools {
@@ -87,11 +89,12 @@
 	grid-row-end: 5;
 	border: ridge;
 	background: white;
+	place-self: stretch;
 }
 
 .skillsImg {
-	height: 80%;
-	width: 80%;
+	width: 100%;
+	height: 100%;
 }
 
 .htmlx {
@@ -99,9 +102,6 @@
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .cssx {
@@ -109,9 +109,6 @@
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .sassx {
@@ -119,9 +116,6 @@
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .reactx {
@@ -129,9 +123,6 @@
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .bootstrapx {
@@ -139,9 +130,6 @@
 	grid-column-end: 6;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .reduxx {
@@ -149,9 +137,6 @@
 	grid-column-end: 7;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .webpackx {
@@ -159,9 +144,6 @@
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .applex {
@@ -169,9 +151,7 @@
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
+	object-fit: contain;
 }
 
 .photoshopx {
@@ -179,9 +159,6 @@
 	grid-column-end: 4;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .nodejsx {
@@ -189,9 +166,6 @@
 	grid-column-end: 2;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
-	max-width: 60%;
-	max-height: 60%;
 }
 
 .expressx {
@@ -199,9 +173,6 @@
 	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .mongoosex {
@@ -209,9 +180,6 @@
 	grid-column-end: 4;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .mongodbx {
@@ -219,9 +187,6 @@
 	grid-column-end: 5;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .mysqlx {
@@ -229,9 +194,6 @@
 	grid-column-end: 6;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .awsx {
@@ -239,9 +201,6 @@
 	grid-column-end: 7;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .sublimex {
@@ -249,9 +208,6 @@
 	grid-column-end: 2;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
-	max-width: 75%;
-	max-height: 75%;
 }
 
 .npmx {
@@ -259,9 +215,6 @@
 	grid-column-end: 3;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .herokux {
@@ -269,9 +222,6 @@
 	grid-column-end: 4;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .githubx {
@@ -279,9 +229,6 @@
 	grid-column-end: 5;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 .wordpressx {
@@ -289,15 +236,12 @@
 	grid-column-end: 6;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
-	max-width: 80%;
-	max-height: 80%;
 }
 
 @media only screen and (max-width: 800px) {
 	.skills {
 		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
-		grid-template-rows: 0.95fr 3fr 12fr 0.5fr;
+		grid-template-rows: 1fr 3fr 10fr 0.5fr;
 	}
 
 	.skillsTitle {

@@ -1,36 +1,24 @@
 import React from "react";
-import {
-	Collapse,
-	Navbar,
-	NavbarToggler,
-	NavbarBrand,
-	Nav,
-	NavItem,
-	NavLink,
-	UncontrolledDropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem
-} from "reactstrap";
+import { Navbar, Nav, NavItem, NavLink } from "reactstrap";
 import "../componentcss/pageNavbar.css";
 
 function PageNavbar() {
 	return (
-		<Navbar className="pageNavbar nav-bar" color="dark">
+		<Navbar>
 			<Nav>
-				<NavItem className="navItemStyle">
+				<NavItem>
 					<NavLink href="#about">About</NavLink>
 				</NavItem>
-				<NavItem className="navItemStyle">
+				<NavItem>
 					<NavLink href="#projects">Projects</NavLink>
 				</NavItem>
-				<NavItem className="navItemStyle">
+				<NavItem>
 					<NavLink href="#statement">Connor</NavLink>
 				</NavItem>
-				<NavItem className="navItemStyle">
+				<NavItem>
 					<NavLink href="#skills">Skills</NavLink>
 				</NavItem>
-				<NavItem className="navItemStyle">
+				<NavItem>
 					<NavLink href="#contact">Contact</NavLink>
 				</NavItem>
 			</Nav>

@@ -3,10 +3,11 @@
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	background: #e6e830;
+	background: #659dbd;
 	display: grid;
 	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
 	grid-template-rows: 2fr 2fr 12fr 2fr;
+	place-items: center;
 }
 
 .leftLine {
@@ -18,7 +19,6 @@
 	color: black;
 	height: 1px;
 	background-color: black;
-	margin: auto;
 }
 
 .rightLine {
@@ -30,7 +30,6 @@
 	width: 100%;
 	height: 1px;
 	background-color: black;
-	margin: auto;
 }
 
 .aboutTitle {
@@ -39,7 +38,6 @@
 	grid-row-start: 1;
 	grid-row-end: 2;
 	font-size: 2.8rem;
-	margin: auto;
 	font-weight: bold;
 }
 
@@ -56,7 +54,6 @@
 	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
 	font-size: 1.4rem;
 }
 
@@ -65,7 +62,6 @@
 	grid-column-end: 4;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
 	font-size: 1.4rem;
 }
 
@@ -74,7 +70,6 @@
 	grid-column-end: 6;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
 	font-size: 1.4rem;
 }
 
@@ -83,7 +78,6 @@
 	grid-column-end: 4;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
 }
 
 @media only screen and (max-width: 800px) {

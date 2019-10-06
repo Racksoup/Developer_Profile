@@ -3,10 +3,11 @@
 	grid-column-end: 3;
 	grid-row-start: 5;
 	grid-row-end: 6;
-	background: #36e4a9;
+	background: #fbeec1;
 	display: grid;
 	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
 	grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+	place-items: center;
 }
 
 .contactLeftLine {
@@ -18,7 +19,6 @@
 	color: black;
 	height: 1px;
 	background-color: black;
-	margin: auto;
 }
 
 .contactRightLine {
@@ -30,7 +30,6 @@
 	width: 100%;
 	height: 1px;
 	background-color: black;
-	margin: auto;
 }
 
 .contactTitle {
@@ -39,7 +38,7 @@
 	grid-row-start: 1;
 	grid-row-end: 2;
 	font-size: 2.8rem;
-	margin: auto;
+	vertical-align: center;
 	font-weight: bold;
 }
 
@@ -49,6 +48,7 @@
 	grid-row-start: 2;
 	grid-row-end: 3;
 	font-size: 1.4rem;
+	align-self: start;
 }
 
 .contactBtn {
@@ -56,7 +56,6 @@
 	grid-column-end: 4;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	margin: auto;
 }
 
 .contactBtns {
@@ -64,7 +63,6 @@
 	grid-column-end: 4;
 	grid-row-start: 4;
 	grid-row-end: 5;
-	margin: auto;
 }
 
 .signature {
@@ -74,7 +72,6 @@
 	grid-row-end: 6;
 	max-height: 10rem;
 	max-width: 10rem;
-	margin: auto;
 }
 
 .contactBtnStyle {

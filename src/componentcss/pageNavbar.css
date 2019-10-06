@@ -1,21 +1,27 @@
-.pageNavbar {
+.navbar {
 	position: fixed;
 	z-index: 1;
 	width: 83.336%;
 	margin-left: 8.333%;
 	margin-right: 8.333%;
 	justify-content: center;
-	background: grey;
+	background-color: #fbeec1;
+}
+
+.nav-link {
+	color: #8d8741;
 }
 
 @media only screen and (max-width: 800px) {
-	.pageNavbar {
+	.navbar {
 		width: 100%;
 		margin-left: 0%;
 		margin-right: 0%;
 		font-size: 0.7rem;
 	}
-	.nav-item {
-		width: 60px;
+
+	.nav-link {
+		color: #bc986a;
+		font-size: 0.7rem;
 	}
 }
