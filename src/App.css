@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-rows: 50rem 50rem 58rem 75rem 20rem;
   text-align: center;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .background {

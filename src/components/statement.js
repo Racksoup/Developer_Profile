@@ -10,8 +10,8 @@ function Statement() {
 	return (
 		<section id="statement" className="statement">
 			<div className="statementBlock">
-				<div>User Experience / User Interface</div>
-				<div>Designer / Developer</div>
+				<div className="statementText">User Experience / User Interface</div>
+				<div className="statementText">Designer / Developer</div>
 				<Button> Contact Me </Button>
 				<ButtonGroup className="contactButtons">
 					<Button color="icon">
