@@ -1,7 +1,7 @@
 .App {
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
-  grid-template-rows: 50rem 0rem 58rem 85rem 20rem;
+  grid-template-rows: 50rem 40rem 58rem 85rem 20rem;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
 }
