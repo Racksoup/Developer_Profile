@@ -96,6 +96,20 @@
 	grid-row-end: 6;
 }
 
+@media only screen and (max-width: 1250px) {
+	.infoText1 {
+		margin: 2rem;
+	}
+
+	.infoText2 {
+		margin: 2rem;
+	}
+
+	.infoText3 {
+		margin: 2rem;
+	}
+}
+
 @media only screen and (max-width: 800px) {
 	.about {
 		grid-template-columns: 1fr 2fr 3fr 2fr 1fr;

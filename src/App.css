@@ -35,11 +35,28 @@
   background: #0b0c10;
 }
 
+@media only screen and (max-width: 1550px) {
+  .App {
+    grid-template-rows: 50rem 50rem 58rem 85rem 20rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .App {
+    grid-template-rows: 50rem 60rem 58rem 85rem 20rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    grid-template-rows: 50rem 60rem 58rem 85rem 25rem;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .App {
-    display: grid;
     grid-template-columns: 0fr 10fr 0fr;
-    grid-template-rows: 35rem 52rem 120rem 100rem 20rem;
+    grid-template-rows: 35rem 70rem 120rem 120rem 20rem;
   }
 
   .background {
@@ -48,3 +65,10 @@
     margin-right: 0%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .App {
+    grid-template-rows: 35rem 70rem 120rem 100rem 20rem;
+  }
+}
+

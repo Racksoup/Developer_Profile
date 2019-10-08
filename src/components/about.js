@@ -34,7 +34,9 @@ function About() {
 				coming back to the city I love. I Probably love the city so much because
 				there is no Tim Horton's in the forest, and I run on coffee.
 			</div>
-			<Button className="projectsButton"> View Recent Projects </Button>
+			<a href="#projects" className="projectsButton">
+				<Button> View Recent Projects </Button>
+			</a>
 		</section>
 	);
 }

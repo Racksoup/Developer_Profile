@@ -1,0 +1,21 @@
+.modalx {
+	font-family: "Titillium Web", sans-serif;
+}
+
+.btn-contact {
+	background: #0b0c10;
+	border-radius: 0.5rem;
+	border: 0px;
+	color: #45a29e;
+}
+
+.btn-contact:hover {
+	color: #66fcf1;
+}
+
+.descStyle {
+	height: 10rem;
+	width: 100%;
+	border-radius: 0.3rem;
+	border-color: rgba(0, 0, 0, 0.2);
+}

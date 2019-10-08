@@ -6,6 +6,7 @@ import linkImg from "../images/linkedin.png";
 import stackImg from "../images/stackoverflow.png";
 import Signature from "../images/signature.png";
 import { Button } from "reactstrap";
+import Modalx from "./modal";
 
 function Contact() {
 	return (
@@ -14,7 +15,9 @@ function Contact() {
 			<div className="contactTitle">Contact</div>
 			<hr className="contactRightLine" />
 			<div className="contactInfo">Want to chat about something?</div>
-			<Button className="contactBtn"> Contact Me </Button>
+			<div className="contactBtn">
+				<Modalx />
+			</div>
 			<div className="contactBtns">
 				<button className="contactBtnStyle">
 					<a href="https://www.facebook.com/connor.rack">
@@ -27,7 +30,7 @@ function Contact() {
 					</a>
 				</button>
 				<button className="contactBtnStyle">
-					<a href="https://www.linkedin.com/in/connor-rack-9066b2193/">
+					<a href="https://www.linkedin.com/in/connor-rack-9066b2193">
 						<img src={linkImg} className="contactBtnImg" />
 					</a>
 				</button>

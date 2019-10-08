@@ -1,5 +1,6 @@
 import React from "react";
 import "../componentcss/statement.css";
+import Modalx from "./modal";
 import { Button, ButtonGroup } from "reactstrap";
 import facebookImg from "../images/facebook.png";
 import gitImg from "../images/github.png";
@@ -12,7 +13,7 @@ function Statement() {
 			<div className="statementBlock">
 				<div className="statementText">User Experience / User Interface</div>
 				<div className="statementText">Designer / Developer</div>
-				<Button> Contact Me </Button>
+				<Modalx />
 				<ButtonGroup className="contactButtons">
 					<Button color="icon">
 						<a href="https://www.facebook.com/connor.rack">
@@ -25,7 +26,7 @@ function Statement() {
 						</a>
 					</Button>
 					<Button color="icon">
-						<a href="https://www.linkedin.com/in/connor-rack-9066b2193/">
+						<a href="https://www.linkedin.com/in/connor-rack-9066b2193">
 							<img src={linkImg} className="contactIcon" />
 						</a>
 					</Button>
